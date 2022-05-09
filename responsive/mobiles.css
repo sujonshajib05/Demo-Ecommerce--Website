@@ -1,0 +1,146 @@
+
+@media  (max-width: 600px) {
+    .logo {
+        left: 25px;
+        top: 35px;
+    }
+    .logo a{
+        color: red;
+        font-size: 25px;
+    }
+    .searcharea {
+        right: 20px;
+        top: 35px;
+        width: 120px;
+        height: 35px;
+    }
+    .searchbox .fa-brands{
+        position: relative;
+        right: -5px;
+    }
+    .searchbox input{
+        position: relative;
+        right: -5px;
+    }
+    .section1 img{
+        height: 200px;
+        position: relative;
+        top: 30px;
+        left: -9px;
+
+    }
+    .sectionbutton{
+        top:40%;
+    }
+    .sectionbutton h1{
+        letter-spacing: 20px;
+        right: 30%;
+    }
+    .sectionbutton h1, h2{
+        font-size: 2rem;
+        line-height: 45px;
+    }
+    .sectionbutton button{
+        width: 90px;
+        height: 28px;
+        margin-top: 5px;
+        font-size: 15px;
+        border-radius: 15px;
+    }
+    .icons{
+        top: 15%;
+        left: 10px;
+        width: 30px;
+        height: 280px;
+    }
+    .section1{
+        top: 35%;
+        left: 30%;
+    }
+    /* Productsection start*/
+    .productSection{
+        width: 95%;
+        margin-top: -240px;
+        padding: 30px 10px;
+        
+    }
+    .productSection h3{
+        font-size: 20px;
+        line-height: 35px;
+        letter-spacing: 5px;
+        position: relative;
+        top: -20px;
+}
+    .productBox{
+        width: 110px;
+        height: 190px;
+    }
+    .productBox img{
+        width: 115px;
+        height: 120px;
+    }
+    .BuyBtn{
+        width: 100px;
+        height: 25px;
+        bottom: -20px;
+    }
+   /* Productsection end*/ 
+
+    /* About start*/
+    .about{
+        display: flex;
+        padding: 0px;
+        top: 0px;
+        position: relative;
+        top: -30px;
+        margin-bottom: 215px
+    }
+    .aboutBox h1{
+       font-size: 25px;; 
+    }
+    .aboutBox h4{
+        font-size: 18px;
+        margin-bottom: 3px;
+        margin-top: 3px;
+    }
+    .aboutBox p{
+        font-size: 15px;
+    }
+    .aboutBox img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        position: relative;
+        top: -30px;
+    }    
+    /* About end*/
+
+    /* Notification start*/
+    .notification{
+        height: 150px;
+        position: relative;
+    }
+    .notification h1{
+        font-size: 15px;
+        position: relative;
+        top: -18px;
+    }
+    .notificationInput{
+        width: 265px;
+        height: 35px;
+        position: relative;
+        top: -20px;
+    }
+    .notificationInput input{
+        font-size: 10px;
+    }
+    .notificationButton{
+        width: 55px;
+        height: 20px;
+    }
+    .notificationInput a{
+        font-size: 10px;
+    }
+    /* Notification end*/
+
+}
